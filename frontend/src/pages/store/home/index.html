@@ -1,0 +1,26 @@
+<!doctype html><html><head><meta charset="UTF-8"><title>Food Store</title>
+    <link rel="stylesheet" href="/src/style.css"></head><body>
+<header>
+    <h1 style="color:#e85a4f;font-size:1.3rem">🍔Food Store</h1>
+    <nav>
+        <a href="../home/index.html">Tienda</a>
+        <a href="../../client/orders/index.html">Mis Pedidos</a>
+        <a href="../../cart/index.html">🛒 Carrito (<span id="badge">0</span>)</a>
+        <button id="logout" class="secondary">Salir</button>
+    </nav>
+</header>
+<div class="layout">
+    <aside class="sidebar" id="cats"></aside>
+    <main>
+        <div class="toolbar">
+            <input id="buscar" placeholder="Buscar producto...">
+            <select id="orden">
+                <option value="az">Nombre A-Z</option><option value="za">Nombre Z-A</option>
+                <option value="pa">Precio ↑</option><option value="pd">Precio ↓</option>
+            </select>
+        </div>
+        <div id="grid" class="grid"></div>
+    </main>
+</div>
+<script type="module" src="./home.ts"></script>
+</body></html>

@@ -1,0 +1,28 @@
+<!doctype html><html><head><meta charset="UTF-8"><title>Pedidos Admin</title>
+    <link rel="stylesheet" href="/src/style.css"></head><body>
+<header>
+    <h1 style="color:#e85a4f;font-size:1.3rem">🍔Food Store–Admin</h1>
+    <nav><a href="../adminHome/index.html">Panel</a><button id="logout" class="secondary">Salir</button></nav>
+</header>
+<div class="layout">
+    <aside class="sidebar">
+        <button onclick="location.href='../adminHome/index.html'">📊Dashboard</button>
+        <button onclick="location.href='../categories/index.html'">📁Categorías</button>
+        <button onclick="location.href='../products/index.html'">🍔Productos</button>
+        <button class="active">📦Pedidos</button>
+    </aside>
+    <main>
+        <div style="display:flex;justify-content:space-between;margin-bottom:1rem">
+            <h2>Gestión de Pedidos</h2>
+            <select id="filtro" style="max-width:200px">
+                <option value="">Todos los estados</option>
+                <option value="PENDIENTE">Pendiente</option><option value="CONFIRMADO">Confirmado</option>
+                <option value="TERMINADO">Terminado</option><option value="CANCELADO">Cancelado</option>
+            </select>
+        </div>
+        <div id="list"></div>
+        <div id="modal"></div>
+    </main>
+</div>
+<script type="module" src="./orders.ts"></script>
+</body></html>

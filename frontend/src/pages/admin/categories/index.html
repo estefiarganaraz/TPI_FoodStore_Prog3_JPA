@@ -1,0 +1,24 @@
+<!doctype html><html><head><meta charset="UTF-8"><title>Categorias</title>
+    <link rel="stylesheet" href="/src/style.css"></head><body>
+<header>
+    <h1 style="color:#e85a4f;font-size:1.3rem">🍔Food Store–Admin</h1>
+    <nav><a href="../adminHome/index.html">Panel</a><button id="logout" class="secondary">Salir</button></nav>
+</header>
+<div class="layout">
+    <aside class="sidebar">
+        <button onclick="location.href='../adminHome/index.html'">📊Dashboard</button>
+        <button class="active">📁 Categorias</button>
+        <button onclick="location.href='../products/index.html'">🍔Productos</button>
+        <button onclick="location.href='../orders/index.html'">📦Pedidos</button>
+    </aside>
+    <main>
+        <div style="display:flex;justify-content:space-between;margin-bottom:1rem">
+            <h2>Gestión de Categorias</h2>
+            <button id="nuevo">+ Nueva Categoria</button>
+        </div>
+        <table id="tabla"></table>
+        <div id="modal"></div>
+    </main>
+</div>
+<script type="module" src="./categories.ts"></script>
+</body></html>

@@ -1,0 +1,8 @@
+[
+  { "id": 1, "nombre": "Hamburguesas", "descripcion": "Hamburguesas artesanales", "imagen": "https://placehold.co/300x200",
+    "eliminado": false },
+  { "id": 2, "nombre": "Bebidas", "descripcion": "Bebidas frias", "imagen": "https://placehold.co/300x200", "eliminado":
+  false },
+  { "id": 3, "nombre": "Postres", "descripcion": "Postres caseros", "imagen":  "https://placehold.co/300x200", "eliminado":
+    false }
+]

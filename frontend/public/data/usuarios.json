@@ -1,0 +1,6 @@
+[
+  { "id": 1, "nombre": "Admin", "apellido": "Sistema", "mail": "admin@food.com", "celular": "1122334455", "password":
+  "admin123", "rol": "ADMIN" },
+  { "id": 2, "nombre": "Juan", "apellido": "Perez", "mail": "juan@mail.com", "celular": "1155667788", "password": "juan123",
+  "rol": "USUARIO" }
+]

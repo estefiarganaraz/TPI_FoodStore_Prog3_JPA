@@ -1,0 +1,25 @@
+<!doctype html><html><head><meta charset="UTF-8"><title>Admin</title>
+    <link rel="stylesheet" href="/src/style.css"></head><body>
+<header>
+    <h1 style="color:#e85a4f;font-size:1.3rem">🍔Food Store–Admin</h1>
+    <nav>
+        <a href="../../store/home/index.html">Ver Tienda</a>
+        <button id="logout" class="secondary">Cerrar sesion</button>
+    </nav>
+</header>
+<div class="layout">
+    <aside class="sidebar">
+        <button class="active" onclick="location.href='index.html'">📊Dashboard</button>
+        <button onclick="location.href='../categories/index.html'">📁Categorias</button>
+        <button onclick="location.href='../products/index.html'">🍔Productos</button>
+        <button onclick="location.href='../orders/index.html'">📦Pedidos</button>
+        <button onclick="location.href='../../store/home/index.html'">🏪Ver Tienda</button>
+    </aside>
+    <main>
+        <h2 style="margin-bottom:1rem">Panel de Administracion</h2>
+        <div class="stats" id="stats"></div>
+        <div class="card"><h4>Resumen rapido</h4><div id="resumen"></div></div>
+    </main>
+</div>
+<script type="module" src="./adminHome.ts"></script>
+</body></html>

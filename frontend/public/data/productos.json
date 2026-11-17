@@ -1,0 +1,6 @@
+[
+  { "id": 1, "nombre": "Hamburguesa triple", "precio": 25000, "descripcion": "Triple carne con cheddar", "stock": 10, "imagen": "/img/hamburguesa.jpg", "disponible": true, "eliminado": false, "categoriaId": 1 },
+  { "id": 2, "nombre": "Hamburguesa clásica", "precio": 18000, "descripcion": "Carne, lechuga, tomate", "stock": 15, "imagen": "/img/hamburguesa2.jpg", "disponible": true, "eliminado": false, "categoriaId": 1 },
+  { "id": 3, "nombre": "Coca Cola 500ml", "precio": 3000, "descripcion": "Bebida fría", "stock": 30, "imagen": "/img/bebida.jpg", "disponible": true, "eliminado": false, "categoriaId": 2 },
+  { "id": 4, "nombre": "Flan casero", "precio": 5000, "descripcion": "Con dulce de leche", "stock": 8, "imagen": "/img/postre.jpg", "disponible": true, "eliminado": false, "categoriaId": 3 }
+]
