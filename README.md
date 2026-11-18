@@ -31,6 +31,6 @@ Soft delete en todas las entidades.
 ## Enlace a GitHub:
 https://github.com/estefiarganaraz/TPI_FoodStore_Prog3_JPA.git
 ## Enlace al video demostrativo: 
-https://drive.google.com/file/d/1hTomBgFhlu1OEmUCkfwju6tEL3fJFfUr/view?usp=drive_link
+https://drive.google.com/file/d/1pSk_BdybzSwSYtZWpDXPzsVZHCqn4dlN/view?usp=sharing
 ## Enlace a la documentacion PDF: 
 https://drive.google.com/file/d/1hTomBgFhlu1OEmUCkfwju6tEL3fJFfUr/view?usp=drive_link
